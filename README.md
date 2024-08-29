@@ -94,7 +94,7 @@ To view test coverage:
     |__ READE.me
     |__ eslint.config.js
 
-    ```
+    
 
 ##  Technologies Used
     - React: A JavaScript library for building user interfaces.
