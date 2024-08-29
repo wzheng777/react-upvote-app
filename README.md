@@ -1,6 +1,4 @@
-# Creating the README.md content as per the user's request.
 
-readme_content = """
 # React Upvote App
 
 A simple React application that allows users to upvote items in a list. Each upvote component toggles its selection state based on user interaction. The application also allows users to add new upvote lists and manage them independently.
