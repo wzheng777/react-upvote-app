@@ -47,7 +47,6 @@ Follow these steps to set up the project locally:
 ## Usage
 To start the development server:
 
-    ```bash
     npm run dev
 
 This will run the app in development mode. Open http://localhost:3000 to view it in the browser.
@@ -57,19 +56,16 @@ To run the tests using Jest:
 
 **Run tests**:
   
-    ```bash
     npm test
 
  **Test Coverage**:
 
 To view test coverage:
 
-    ```bash
     npm test -- --coverage
 
 ## Folder Structure
 
-    ```bash
     react-upvote-app/
     ├── public/
     ├── src/
