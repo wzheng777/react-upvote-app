@@ -1,21 +1,21 @@
-/* src/components/UpvoteList.css */
-
+/* Upvote List Container */
 .upvote-list-container {
     display: flex;
     align-items: center;
     padding: 15px;
-    
     border-radius: 12px;
     margin-bottom: 20px;
     background-color: #ffffff;
-   
+    width: 100%; /* Ensure container width adapts to the parent */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
   }
   
+  /* Upvote Items */
   .upvote-items {
     display: flex;
     gap: 10px;
-    flex-wrap: nowrap;
-    width: 100%; 
+    flex-wrap: wrap; /* Allows items to wrap when the container is full */
+    width: 100%; /* Extend to the full width of the parent container */
     margin-right: auto;
     border: 1px solid #e0e0e0;
     border-radius: 12px;
@@ -23,5 +23,8 @@
     margin-top: 5px;
     padding: 15px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
   }
+  
+
   
