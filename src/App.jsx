@@ -8,7 +8,7 @@ const App = () => {
   const { upvoteLists, addList } = useUpvote();
 
   return (
-    <div>
+    <div className="page-container">
       {upvoteLists.map((_, index) => (
         <UpvoteList key={index} listIndex={index} />
       ))}
