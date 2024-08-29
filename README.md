@@ -47,7 +47,7 @@ To start the development server:
 
     npm run dev
 
-This will run the app in development mode. Open http://localhost:3000 to view it in the browser.
+This will run the app in development mode. Open http://localhost:5173 to view it in the browser.
 
 ## Testing
 To run the tests using Jest:
