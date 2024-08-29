@@ -12,16 +12,12 @@ test('it toggles selection state on click', () => {
     <Upvote isSelected={false} onToggle={mockToggle} />
   );
 
-  // Get the Upvote button
   const upvoteButton = getByRole('button');
 
-  // Simulate click event
   fireEvent.click(upvoteButton);
 
-  // Assert that the toggle function was called
   expect(mockToggle).toHaveBeenCalledTimes(1);
 
-  // Re-render component with the 'selected' state
   rerender(<Upvote isSelected={true} onToggle={mockToggle} />);
 
   // Check if the button has the 'selected' class applied
