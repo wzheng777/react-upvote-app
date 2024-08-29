@@ -11,7 +11,6 @@ export const useUpvote = () => {
 
 // Context provider component
 export const UpvoteProvider = ({ children }) => {
-  //const [upvoteLists, setUpvoteLists] = useState([[]]); // Initialize with one list containing one upvote
   const [upvoteLists, setUpvoteLists] = useState(() => {
     const savedLists = localStorage.getItem('upvoteLists');
     return savedLists ? JSON.parse(savedLists) : [[false]]; // Initialize with one upvote

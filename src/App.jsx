@@ -2,6 +2,7 @@
 import React from 'react';
 import { UpvoteProvider, useUpvote } from './context/UpvoteContext';
 import UpvoteList from './components/UpvoteList';
+import './App.css'; 
 
 const App = () => {
   const { upvoteLists, addList } = useUpvote();
@@ -11,7 +12,7 @@ const App = () => {
       {upvoteLists.map((_, index) => (
         <UpvoteList key={index} listIndex={index} />
       ))}
-      <button onClick={addList}>Add New Upvote List</button>
+      <button onClick={addList} className="add-list-button" >Add New Upvote List</button>
     </div>
   );
 };
