@@ -1,7 +1,6 @@
 // src/components/Upvote.jsx
 import React from 'react';
 import './Upvote.css';
-import arrowUp from '../assets/icons/arrow-up.svg';
 
 const Upvote = ({ isSelected, onToggle }) => {
   return (
