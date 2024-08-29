@@ -1,0 +1,24 @@
+/* src/components/AddButton.css */
+
+.add-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #f4f6f8;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .add-button img {
+    width: 20px;
+    height: 20px;
+  }
+  

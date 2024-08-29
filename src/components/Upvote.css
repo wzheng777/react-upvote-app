@@ -1,0 +1,29 @@
+/* src/components/Upvote.css */
+
+.upvote-item {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f6f8;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upvote-item.selected {
+    background-color: #e5e8fd;
+  }
+  
+  .upvote-arrow {
+    width: 20px;
+    height: 20px;
+    fill: #343a40;
+    transition: fill 0.3s ease;
+  }
+  
+  .upvote-item.selected .upvote-arrow {
+    fill: #253cf2;
+  }
+  
