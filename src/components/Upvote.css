@@ -1,29 +1,29 @@
 /* src/components/Upvote.css */
 
+/* Default state for upvote item */
 .upvote-item {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f4f6f8;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .upvote-item.selected {
-    background-color: #e5e8fd;
-  }
-  
-  .upvote-arrow {
-    width: 20px;
-    height: 20px;
-    fill: #343a40;
-    transition: fill 0.3s ease;
-  }
-  
-  .upvote-item.selected .upvote-arrow {
-    fill: #253cf2;
-  }
-  
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f6f8;
+  border: 0; /* Remove default border */
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Add color transition */
+  color: #343a40; /* Default arrow color */
+}
+
+/* Selected state for upvote item */
+.upvote-item.selected {
+  background-color: #e5e8fd; /* Change background color on selection */
+  color: #253cf2; /* Change arrow color on selection */
+}
+
+/* SVG styling */
+.upvote-arrow {
+  width: 20px;
+  height: 20px;
+  transition: fill 0.3s ease;
+}

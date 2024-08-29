@@ -12,7 +12,7 @@ test('it toggles selection state on click', () => {
     <Upvote isSelected={false} onToggle={mockToggle} />
   );
 
-  // Get the Upvote button (role button added to the <div>)
+  // Get the Upvote button
   const upvoteButton = getByRole('button');
 
   // Simulate click event
