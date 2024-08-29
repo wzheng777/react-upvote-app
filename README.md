@@ -36,7 +36,7 @@ Follow these steps to set up the project locally:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/wzheng777react-upvote-app.git
+   git clone https://github.com/wzheng777/react-upvote-app.git
    cd react-upvote-app
 
 2. **Install dependencies**:
